@@ -9,6 +9,7 @@ public class Main {
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         MyPanel myPanel = new MyPanel();
         myPanel.repaint();
+        //myPanel.setSymbols("1, 2, 3");
         myPanel.setSymbols("0, 1, 2, 3, 4, 5, 6, 7, 8, 9, И");
         f.add(myPanel);
         f.pack();
