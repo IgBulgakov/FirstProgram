@@ -11,7 +11,7 @@ public class MyPanel extends JPanel {
     private int y = 100;
     private int width = 50;
     private int height = 100;
-    private int step = 0;
+    private int step = 30;
     private int delta = 5;
     private ArrayList<Rectangle> outlist = new ArrayList<Rectangle>();
     public void setSymbols(String parm) {
@@ -94,6 +94,33 @@ public class MyPanel extends JPanel {
                     segment(7);
                     segment(8);
                     segment(9);
+                    break;
+                case "Г":
+                    segment(1);
+                    segment(6);
+                    segment(7);
+                    break;
+                case "О":
+                    segment(1);
+                    segment(2);
+                    segment(4);
+                    segment(5);
+                    segment(6);
+                    segment(7);
+                    break;
+                case "Р":
+                    segment(1);
+                    segment(2);
+                    segment(3);
+                    segment(6);
+                    segment(7);
+                    break;
+                case "Ь":
+                    segment(3);
+                    segment(4);
+                    segment(5);
+                    segment(6);
+                    segment(7);
                     break;
             }
             x = x + step + width;
